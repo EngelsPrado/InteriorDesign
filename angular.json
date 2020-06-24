@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "interiordesign"
+    }
+  },
+  "defaultProject": "interiordesign",
+  "cli": {
+    "analytics": "df9144fc-fc9e-48ee-b97c-45e11dc4f178"
+  }
 }
