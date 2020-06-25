@@ -7,7 +7,7 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
- <header class="container-fluid pb-md-5">
+ <header class="container-fluid ">
 
   <nav  class="navbar navbar-expand-lg navbar-light bg-light p-3">
    
@@ -18,105 +18,26 @@
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto  align-items-center ">
         <li class="nav-item active">
-          <a class="nav-link interior" href="#">INTERIOR DESIGN <span class="sr-only">(current)</span></a>
+          <a class="nav-link interior" routerLink="/" routerLinkActive="active" >INTERIOR DESIGN <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Portafolio
-          </a>
-         
+          <a class="nav-link"  routerLink="About" routerLinkActive="active" >About</a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link"  routerLink="Blog">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Testimonial</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" class="contact"  routerLink="/Contact" routerLinkActive="active" >Contact</a>
         </li>
       </ul>
-      <a class="contact" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+      
     </div>
   </nav>
- 
-    <div class="back">
 
-    </div>
  
-   <span class="head ">
-     El arte de diseñar
-   </span>
  </header>
- <section class="container mt-md-5 border-top border-bottom">
-
-   <div class="row justify-content-around mt-5 mb-5">
-    <div class="card m-2 border-0" style="width: 18rem;">
-      <div class="card-header">
-        Title 1
-      </div>
-      <img src="../assets/DSC69161.png" style="height:13rem ;" class="card-img-top" alt="...">
-      <div class="card-body">
-       
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-outline-secondary">More Info</a>
-      </div>
-    </div>
-    <div class="card  m-2 border-0" style="width: 18rem;">
-      <div class="card-header">
-        Title 1
-      </div>
-      <img src="../assets/DSC69521.png" s class="card-img-top" alt="...">
-      <div class="card-body">
-       
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-outline-secondary">More Info</a>
-      </div>
-    </div>
-    <div class="card  m-2 border-0" style="width: 18rem;">
-      <div class="card-header">
-        Title 1
-      </div>
-      <img src="../assets/DSC6954.png" class="card-img-top" alt="...">
-      <div class="card-body">
-       
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-outline-secondary">More Info</a>
-      </div>
-    </div>
-   </div>
-
- </section>
- <section class="container mt-5 mb-5">
-    <span class="instagram">Instagram  <img class="m-3" src="https://img.icons8.com/carbon-copy/44/000000/instagram-new.png"/> </span> 
-  <div class="row">
-     
-     <div class="col-12 col-md-6">
-     
-       <img src="../assets/fmx_interior_design_co_xiamen_china_kitchen_bath_bedroom.png" class=" figure-img img-fluid">
-     </div>
-     <div class="col-12 col-md-6">
-       <div class="row">
-        <div class="col-6">
-              <img class=" figure-img img-fluid" src="../assets/fmx_interior_design_co_xiamen_china_kitchen_bath_boulder.png">
-        </div>
-        <div class="col-6">
-              <img class=" figure-img img-fluid" src="../assets/fmx_interior_design_co_xiamen_china_kitchen_bath_dining_area.png">
-        </div>
-        <div class="col-6">
-               <img class=" figure-img img-fluid" src="../assets/fmx_interior_design_co_xiamen_china_kitchen_bath_open_plan_glass_box.png">
-        </div>
-        <div class="col-6">
-               <img class=" figure-img img-fluid" src="../assets/DSC69161.png"> 
-        </div>
-       </div> 
-
-     </div>
-
-  </div>
-
- </section>
-
+ <!-- The routed views render in the <router-outlet>-->
+  <router-outlet></router-outlet>
  <footer class="container-fluid border-top p-3">
 
    <div class="container ">
@@ -128,3 +49,5 @@
    </div>
 
  </footer>
+
+
