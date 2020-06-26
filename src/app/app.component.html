@@ -10,24 +10,26 @@
  <header class="container-fluid ">
 
   <nav  class="navbar navbar-expand-lg navbar-light bg-light p-3">
-   
+     <ul  class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link interior"  data-toggle="collapse" data-target=".navbar-collapse.show"routerLink="/" routerLinkActive="active" >INTERIOR DESIGN <span class="sr-only">(current)</span></a>
+      </li>
+     </ul>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto  align-items-center ">
-        <li class="nav-item active">
-          <a class="nav-link interior" routerLink="/" routerLinkActive="active" >INTERIOR DESIGN <span class="sr-only">(current)</span></a>
-        </li>
+      
         <li class="nav-item">
-          <a class="nav-link"  routerLink="About" routerLinkActive="active" >About</a>
+          <a class="nav-link"  data-toggle="collapse" data-target=".navbar-collapse.show" routerLink="About" routerLinkActive="active" >About</a>
         </li>        
         <li class="nav-item">
-          <a class="nav-link"  routerLink="Blog">Blog</a>
+          <a class="nav-link"  data-toggle="collapse" data-target=".navbar-collapse.show" routerLink="Blog">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" class="contact"  routerLink="/Contact" routerLinkActive="active" >Contact</a>
+          <a class="nav-link" class="contact"  data-toggle="collapse" data-target=".navbar-collapse.show" routerLink="/Contact" routerLinkActive="active" >Contact</a>
         </li>
       </ul>
       
