@@ -1,27 +1,19 @@
-# Interiordesign
+# Objetivo
+Es una plantilla web con un enfoque a los diseños de interiores. Puedes acceder desde aqui: https://interior-design-black.vercel.app/
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+Su diseño minimalista te permite recorrer la pagina sin distracciones y conocer rapidamente el producto que se ofrece.
 
-## Development server
+El sitio web se compone de 4 paginas:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Home: Muestra el menu principal que te permite navegar a traves de las paginas del sitio web y se muestran algunos diseños de interiores.
 
-## Code scaffolding
+About: Muestra un poco sobre el equipo que conforma la empresa.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Blog: Muestra noticias, articulos o novedades.
 
-## Build
+Contact: Para ponerte en contacto directamente.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Tecnologias utilizadas
 
-## Running unit tests
+Este sitio web fue desarrollado con angular y typescript. El deploy fue llevado a cabo con vercel. Para saber mas acerca de vercel https://vercel.com/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
